@@ -1,5 +1,9 @@
-GET
+GET(@PathParam)
 http://localhost:8080/api/search/patients?name=j
+
+OR(@PathVariable)
+http://localhost:8080/api/search/patients/J
+
 
 POST
 http://localhost:8080/api/search/addpatients
